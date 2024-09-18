@@ -18,4 +18,4 @@ python ${basedir}/test-input-file.py ${INPUT_FILE}
 
 
 echo "Testing getting dummy secret"
-python ${basedir}/test-secret.py ${OUTPUTDIR} ${SECRET_NAME}
+python ${basedir}/test-secrets.py ${OUTPUTDIR} ${SECRET_NAME}
