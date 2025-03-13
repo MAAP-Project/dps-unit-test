@@ -7,8 +7,6 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Create a directory for the dps-unit-test application
 RUN mkdir -p /app/dps-unit-test
 
-WORKDIR /app/dps-unit-test
-
 # Copy application files to the working directory
 COPY ./ /app/dps-unit-test
 
