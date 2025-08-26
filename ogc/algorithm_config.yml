@@ -1,26 +1,23 @@
-# Input params for OGC application package generator
-# The information provided in this file supports CWL and OGC best practices
-algorithm_description: Unit testing DPS for new cluster setups
-algorithm_name: dps-unit-test
-algorithm_version: mlucas/ogc
-keywords: ogc, dps, test
-code_repository: https://github.com/MAAP-Project/dps-unit-test.git
-citation: https://github.com/MAAP-Project/dps-unit-test.git
-author: mlucas
-contributor: mlucas
-license: https://github.com/MAAP-Project/dps-unit-test/blob/main/LICENSE
+algorithm_description: DPS Unit test
+algorithm_name: dps-unit-test-mlucas
+algorithm_version: mlucas_ogc
+keywords: dps
+code_repository: https://repo.dit.maap-project.org/root/dps-unit-test.git
+citation: https://repo.dit.maap-project.org/root/dps-unit-test.git
 release_notes: None
-run_command: /app/dps-unit-test/run-test.sh
+run_command: dps-unit-test/run-test.sh
 ram_min: 5 # mebibytes
 cores_min: 1
 outdir_max: 20 # mebibytes
 
 inputs:
   - name: input_file
-    doc: Input file
+    doc: input file
     label: input file
     type: string
+    default: input/input_file.txt
 
 outputs:
   - name: out
     type: Directory
+
