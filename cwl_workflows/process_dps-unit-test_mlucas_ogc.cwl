@@ -35,7 +35,6 @@ $graph:
   inputs:
     input_file:
       type: string
-      default: input/input_file.txt
       inputBinding:
         position: 1
         prefix: --input_file
@@ -52,7 +51,7 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/MAAP-Project/dps-unit-test.git
 s:codeRepository: https://github.com/MAAP-Project/dps-unit-test.git
-s:commitHash: 467b71f7f6e4a10375b73f98732fc23055aa773b
+s:commitHash: 98e25d9d9575f3630b2149b7e14ceae508049010
 s:dateCreated: 2025-08-26
 s:license: https://github.com/MAAP-Project/dps-unit-test/blob/main/LICENSE
 s:softwareVersion: 1.0.0
