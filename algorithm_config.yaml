@@ -17,7 +17,7 @@ inputs:
     doc: input file
     label: input file
     type: string
-    default_value: input/input_file.txt
+    default: input/input_file.txt
 
 outputs:
   - name: out
