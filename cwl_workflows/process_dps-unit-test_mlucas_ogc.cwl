@@ -1,14 +1,15 @@
 cwlVersion: v1.2
 $graph:
 - class: Workflow
-  label: dps-unit-test
-  doc: Unit testing DPS for new cluster setups
-  id: dps-unit-test
+  label: dps-unit-test-mlucas
+  doc: DPS Unit test
+  id: dps-unit-test-mlucas
   inputs:
     input_file:
-      doc: Input file
+      doc: input file
       label: input file
       type: string
+      default: input/input_file.txt
   outputs:
     out:
       type: Directory
@@ -31,13 +32,14 @@ $graph:
       ramMin: 5
       coresMin: 1
       outdirMax: 20
-  baseCommand: /app/dps-unit-test/run-test.sh
+  baseCommand: dps-unit-test/run-test.sh
   inputs:
     input_file:
       type: string
       inputBinding:
         position: 1
         prefix: --input_file
+      default: input/input_file.txt
   outputs:
     outputs_result:
       outputBinding:
@@ -45,19 +47,19 @@ $graph:
       type: Directory
 s:author:
 - class: s:Person
-  s:name: mlucas
+  s:name: null
 s:contributor:
 - class: s:Person
-  s:name: mlucas
-s:citation: https://github.com/MAAP-Project/dps-unit-test.git
-s:codeRepository: https://github.com/MAAP-Project/dps-unit-test.git
-s:commitHash: eadd6feb1c9c1303064ea76e935595e5bf0051b9
+  s:name: null
+s:citation: https://repo.dit.maap-project.org/root/dps-unit-test.git
+s:codeRepository: https://repo.dit.maap-project.org/root/dps-unit-test.git
+s:commitHash: ff5d7eb7fdc5f5a68a539f60f4055de63333960c
 s:dateCreated: 2025-08-26
-s:license: https://github.com/MAAP-Project/dps-unit-test/blob/main/LICENSE
+s:license: null
 s:softwareVersion: 1.0.0
 s:version: mlucas_ogc
 s:releaseNotes: None
-s:keywords: ogc, dps, test
+s:keywords: dps
 $namespaces:
   s: https://schema.org/
 $schemas:
