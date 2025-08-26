@@ -51,7 +51,7 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/MAAP-Project/dps-unit-test.git
 s:codeRepository: https://github.com/MAAP-Project/dps-unit-test.git
-s:commitHash: f088406a7352f87d1efefe454189f285e886e91f
+s:commitHash: 467b71f7f6e4a10375b73f98732fc23055aa773b
 s:dateCreated: 2025-08-26
 s:license: https://github.com/MAAP-Project/dps-unit-test/blob/main/LICENSE
 s:softwareVersion: 1.0.0
