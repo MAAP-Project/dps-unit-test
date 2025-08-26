@@ -35,6 +35,7 @@ $graph:
   inputs:
     input_file:
       type: string
+      default: input/input_file.txt
       inputBinding:
         position: 1
         prefix: --input_file
