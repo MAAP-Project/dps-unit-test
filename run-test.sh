@@ -3,7 +3,7 @@
 basedir=$( cd "$(dirname "$0")" ; pwd -P)
 
 OUTPUTDIR="${PWD}/output"
-INPUT_FILE=$(ls -d /app/dps-unit-test/input/*)
+INPUT_FILE=$(ls -d input/*)
 
 mkdir -p ${OUTPUTDIR}
 echo "Testing writing output product"
