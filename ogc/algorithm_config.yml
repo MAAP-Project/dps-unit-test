@@ -1,9 +1,9 @@
 algorithm_description: DPS Unit test
-algorithm_name: dps-unit-test-mlucas
+algorithm_name: dps-unit-test-mlucas-ogc
 algorithm_version: mlucas_ogc
-keywords: dps
-code_repository: https://repo.dit.maap-project.org/root/dps-unit-test.git
-citation: https://repo.dit.maap-project.org/root/dps-unit-test.git
+keywords: dps, ogc
+code_repository: https://github.com/MAAP-Project/dps-unit-test.git
+citation: https://github.com/MAAP-Project/dps-unit-test.git
 release_notes: None
 run_command: dps-unit-test/run-test.sh
 ram_min: 5 # mebibytes
